@@ -20,7 +20,7 @@ import { ConfigModule } from "@nestjs/config";
     WorkoutExerciseModule,
     ExerciseModule,
     DatabaseModule,
-    ConfigModule.forRoot({isGlobal: true})
+    ConfigModule.forRoot({ isGlobal: true }),
   ],
   controllers: [AppController],
   providers: [AppService],
